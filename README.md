@@ -35,13 +35,18 @@ JWT Authentication
 📁 Project Structure
 primetrade-frontend-task/
 │
-├── frontend/        → React UI
+├── frontend/          → React User Interface
 │
-├── backend/         → Express APIs
+├── backend/           → Express.js APIs
+│   ├── models/        → MongoDB models
+│   ├── routes/        → API routes
+│   ├── controllers/  → API logic
+│   └── server.js      → Backend entry point
 │
-├── README.md        → Project documentation
-│
-└── .gitignore
+├── .gitignore         → Git ignored files
+├── README.md          → Project documentation
+
+
 ⚙️ Features
 🔐 User Registration & Login
 
@@ -85,3 +90,4 @@ Improve UI & dashboards
 Add validations
 
 Deploy to cloud (Vercel / Render / MongoDB Atlas)
+
