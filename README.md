@@ -60,13 +60,13 @@ Token‑based Authentication
 Profile Fetch & Update
 
 CRUD APIs for data management
-
-📂 Project Structure
 primetrade-frontend-task/
 │
-├── frontend/     → React UI
-├── backend/      → Express APIs
-└── README.md
+├── frontend/        # React.js user interface
+│
+├── backend/         # Node.js + Express REST API
+│
+├── README.md        # Project documentation
 
 ⚙️ How to Run Locally
 1 Backend
@@ -100,4 +100,5 @@ JWT‑based stateless authentication
 Frontend uses reusable components
 
 Easy to integrate microservices in future
+
 
