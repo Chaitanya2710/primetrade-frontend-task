@@ -1,17 +1,17 @@
- Project Overview
-This project is a scalable web application that allows users to:
+📌 Project Overview
+PrimeTrade is a web application built using the MERN stack that allows users to:
 
-Register & Login securely
+Register & Login
 
-Access a protected dashboard
+Perform CRUD (Create, Read, Update, Delete) operations
 
-Perform CRUD operations on data
+Store and manage data in MongoDB
 
-Manage their profile
+Use a responsive and interactive frontend
 
-It follows modern full‑stack architecture with clear frontend‑backend separation.
+This project demonstrates full‑stack development, API integration, authentication, and database management.
 
- Tech Stack
+🛠️ Tech Stack
 Frontend
 React.js
 
@@ -28,77 +28,60 @@ Express.js
 
 MongoDB
 
+Mongoose
+
 JWT Authentication
 
-Bcrypt Password Hashing
-
- Authentication & Security
-User passwords encrypted using bcrypt
-
-JWT tokens for session management
-
-Protected routes for dashboard
-
-API authentication middleware
-
- Dashboard Features
-View logged‑in user profile
-
-Create, Read, Update & Delete records
-
-Search and filter data
-
-Secure logout
-
-🔗 API Features
-User Registration
-
-User Login
-
-Token‑based Authentication
-
-Profile Fetch & Update
-
-CRUD APIs for data management
+📁 Project Structure
 primetrade-frontend-task/
 │
-├── frontend/        # React.js user interface
+├── frontend/        → React UI
 │
-├── backend/         # Node.js + Express REST API
+├── backend/         → Express APIs
 │
-├── README.md        # Project documentation
+├── README.md        → Project documentation
+│
+└── .gitignore
+⚙️ Features
+🔐 User Registration & Login
 
-⚙️ How to Run Locally
-1 Backend
+📄 CRUD APIs for data management
+
+🔄 Frontend connected with backend APIs
+
+🗄️ MongoDB database integration
+
+📦 RESTful API architecture
+
+🎨 Clean UI using Material UI
+
+▶️ How to Run Locally
+1️⃣ Start Backend
 cd backend
 npm install
 npm start
-2 Frontend
+Backend will run on:
+👉 http://localhost:2000
+
+2️⃣ Start Frontend
 cd frontend
 npm install
 npm start
-Frontend: http://localhost:3000
-Backend: http://localhost:2000
+Frontend will run on:
+👉 http://localhost:3000
 
- Sample Test User
-You can create a new user using the Register page and login.
+🔗 API & Application Flow
+React frontend sends requests to Express backend
 
- Deployment Ready
-The project is structured to be easily deployed on:
+Express APIs interact with MongoDB
 
-Frontend: Vercel / Netlify
+Responses are sent back and displayed in UI
 
-Backend: Render / Railway
+🌐 Future Improvements
+Add role‑based authentication
 
-Database: MongoDB Atlas
+Improve UI & dashboards
 
- Scalability Plan
-Backend uses modular routes & controllers
+Add validations
 
-JWT‑based stateless authentication
-
-Frontend uses reusable components
-
-Easy to integrate microservices in future
-
-
+Deploy to cloud (Vercel / Render / MongoDB Atlas)
