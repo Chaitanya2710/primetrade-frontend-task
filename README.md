@@ -64,9 +64,10 @@ CRUD APIs for data management
 📂 Project Structure
 primetrade-frontend-task/
 │
-├── frontend/   → React UI
-├── backend/    → Express API
+├── frontend/     → React UI
+├── backend/      → Express APIs
 └── README.md
+
 ⚙️ How to Run Locally
 1 Backend
 cd backend
@@ -99,3 +100,4 @@ JWT‑based stateless authentication
 Frontend uses reusable components
 
 Easy to integrate microservices in future
+
